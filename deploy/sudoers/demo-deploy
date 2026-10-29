@@ -1,0 +1,2 @@
+# 2026/10/29 gongml [需求 待补充] deploy 用户仅允许重启后端
+deploy ALL=(root) NOPASSWD: /usr/bin/systemctl restart demo, /usr/bin/systemctl is-active demo

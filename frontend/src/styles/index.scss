@@ -1,0 +1,22 @@
+// 2026/10/29 gongml [需求 待补充] 全局样式
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: #f5f7fa;
+  color: #303133;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

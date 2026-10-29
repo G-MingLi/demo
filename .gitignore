@@ -1,0 +1,25 @@
+# 2026/10/29 gongml [需求 待补充] Git 忽略规则
+# Java
+backend/target/
+*.log
+
+# 前端
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+
+# 环境与密钥
+.env
+.env.local
+.env.*.local
+!.env.example
+!frontend/.env.development
+!frontend/.env.production
+*.pem
+*.key
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store

@@ -1,0 +1,5 @@
+# 2026/10/29 gongml [需求 待补充] 允许 pnpm 安装时跳过非必要构建脚本
+allowBuilds:
+  '@parcel/watcher': false
+minimumReleaseAgeExclude:
+  - sass@1.107.0
